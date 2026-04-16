@@ -1,7 +1,7 @@
 # Bill of Materials
 ## FC
 
-> Note that MPU-6050 is significantly cheaper locally, and that is why I chose to use it despite cheaper alternatives
+* Note that MPU-6050 is significantly cheaper locally, and that is why I chose to use it despite cheaper alternatives
 
 | Reference | Component | Qty | Package | LCSC | Price/Unit |
 |---|---|---|---|---|---|
@@ -54,9 +54,9 @@
 
 ## Other
 
-> This list covers physical assembly components not part of either PCB
-> It is not completely final - I made this off the top of my head, there are probably other components I forgot to identify
-> It does not include miscellaneous screws or 3D printed parts
+* This list covers physical assembly components not part of either PCB
+* It is not completely final - I made this off the top of my head, there are probably other components I forgot to identify
+* It does not include miscellaneous screws or 3D printed parts
 
 | Component | Qty | Notes | Price (est.) |
 |---|---|---|---|
