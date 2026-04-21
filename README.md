@@ -1,4 +1,4 @@
-(NOTE: I UPDATED THE PCBs TODAY BECAUSE I MANAGED TO GET KICAD WORKING AND NOT CONSIDER SOME VIAS AS NOT CONNECTING)
+(NOTE: I UPDATED THE PCBs TODAY BECAUSE I MANAGED TO GET KICAD WORKING AND NOT CONSIDER SOME VIAS AS NOT CONNECTING, NOW THERE ARE NO DRC OR ERC ERRORS/WARNINGS (apart form cosmetic) )
 
 # Hover
 A fully custom mini racing/stunt drone with ML-assisted balancing, automatic stunts, and some level of autonomous operation without costly cameras or GPS.
@@ -57,16 +57,16 @@ BOM: A BOM generated from kicad for the FC & the RC and also other parts (exclud
 ## Notices and warnings
 
 PCB: Both PCBs have been designed, passed DRC
-(minus a known KiCad via-recognition quirk that was manually verified both by me and with
-a local PCB supplier I know well and confirmed not an issue, see below), but have not been 
+~~(minus a known KiCad via-recognition quirk that was manually verified both by me and with
+a local PCB supplier I know well and confirmed not an issue, see below),~~ but have not been 
 ordered yet - I am waiting for after the design check to be passed before ordering my boards. All firmware is written against 
 the schematic, not a tested board.
 
-PCB Warnings: Both boards carry a small number of DRC
+~~PCB Warnings: Both boards carry a small number of DRC
 warnings: silkscreen readability overlaps (cosmetic, non-functional) and unconnected
 track-end warnings caused by a KiCad quirk where certain vias are not recognised as
 connected. As I just mentioned, they were manually reviewed by me, and by a local supplier
-to be not an issue.
+to be not an issue.~~
 
 ML model: The inference firmware and training pipeline are
 complete, but the actual trained model does not exist yet. It cannot be trained until
