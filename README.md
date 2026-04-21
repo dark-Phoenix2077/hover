@@ -1,3 +1,5 @@
+(NOTE: I UPDATED THE PCBs TODAY BECAUSE I MANAGED TO GET KICAD WORKING AND NOT CONSIDER SOME VIAS AS NOT CONNECTING)
+
 # Hover
 A fully custom mini racing/stunt drone with ML-assisted balancing, automatic stunts, and some level of autonomous operation without costly cameras or GPS.
 
