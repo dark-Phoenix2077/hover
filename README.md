@@ -52,33 +52,11 @@ Firmware: Firmware created for both the FC and RC in STM32 CubeMX and CubeIDE, a
 
 BOM: A BOM generated from kicad for the FC & the RC and also other parts (excluding 3D printed parts and assorted screws). I will likely be purchasing all of these myself, and this is not completely final.
 
-## Notices and warnings
+## Build Photos:
 
-PCB: Both PCBs have been designed, passed DRC
-~~(minus a known KiCad via-recognition quirk that was manually verified both by me and with
-a local PCB supplier I know well and confirmed not an issue, see below),~~ but have not been 
-ordered yet - I am waiting for after the design check to be passed before ordering my boards. All firmware is written against 
-the schematic, not a tested board.
-
-~~PCB Warnings: Both boards carry a small number of DRC
-warnings: silkscreen readability overlaps (cosmetic, non-functional) and unconnected
-track-end warnings caused by a KiCad quirk where certain vias are not recognised as
-connected. As I just mentioned, they were manually reviewed by me, and by a local supplier
-to be not an issue.~~
-
-ML model: The inference firmware and training pipeline are
-complete, but the actual trained model does not exist yet. It cannot be trained until
-flight data is collected from the physical drone as training data. Everything is written 
-to accept a .tflit file e drop-in with no firmware changes required.
-
-3D-printed enclosures: Both enclosures are functional first
-drafts. Ergonomics and tolerances have not been iterated on. I plan to mostly leave the 
-drone shell as-is with a bit of surface sanding, and the controller cad was a very quick mockup,
-being a cuboid with the 4 corners sticking out (see the step file and/or the journals, it is a 
-bit hard to explain) as I thought it would be easiest to cad right now - this is modeled 
-after the controller for another drone I own.
-
-Firmware: All firmware is untested, I am waiting for the actual PCBs to be ordered/arrive to test.
+<img width="3024" height="4032" alt="IMG_5127" src="https://github.com/user-attachments/assets/f1e49425-31e5-4e82-8f51-d1cd76bec0e3" />
+<img width="3024" height="4032" alt="IMG_5127" src="https://github.com/user-attachments/assets/e6ce785e-786e-4455-b6a8-7dfa4ef67aea" 
+<img width="1882" height="3310" alt="IMG_4943" src="https://github.com/user-attachments/assets/484b8e5d-f25a-4acb-b60e-817e9042198e" />
 
 
 # Bill of Materials
