@@ -55,7 +55,7 @@ BOM: A BOM generated from kicad for the FC & the RC and also other parts (exclud
 ## Build Photos:
 
 <img width="3024" height="4032" alt="IMG_5127" src="https://github.com/user-attachments/assets/f1e49425-31e5-4e82-8f51-d1cd76bec0e3" />
-<img width="3024" height="4032" alt="IMG_5127" src="https://github.com/user-attachments/assets/e6ce785e-786e-4455-b6a8-7dfa4ef67aea" 
+<img width="3024" height="4032" alt="IMG_5127" src="https://github.com/user-attachments/assets/e6ce785e-786e-4455-b6a8-7dfa4ef67aea" />
 <img width="1882" height="3310" alt="IMG_4943" src="https://github.com/user-attachments/assets/484b8e5d-f25a-4acb-b60e-817e9042198e" />
 
 
